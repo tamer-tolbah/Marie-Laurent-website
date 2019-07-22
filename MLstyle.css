@@ -5,24 +5,23 @@
     font-family: LemonMilk;
     src: url(LemonMilk.otf)}
 
-#page-width {margin:auto;padding:5px;max-width:90%}
+#page-width {margin:auto;padding:5px;max-width:1100px}
 h1 {font-family:Lemon-Milk-light;letter-spacing:2px}
 p {font-family:'Gill Sans MT'}
 ul, a {text-transform:uppercase; text-decoration:none}
-li a:link {color:rgb(54, 54, 54)}
-li a:hover {color:black !important}
-li a:visited {color:gray;}
-li a:active {color:darkgray;}
+a:link {color:black}
+a:hover {color:gray !important}
+a:visited {color:rgb(54, 54, 54);}
+a:active {color:darkgray;}
 p {text-transform:capitalize}
 li {
     display:inline;
     font-weight:bold;
-    padding:40px;
+    margin:40px;
     font-family:'Gill Sans MT';
     letter-spacing:1px}
-#TopNavBar a {margin-right:10px;float:right;font-size:14px;padding-left:40px}
-/*#logo {position:relative;top:-5px}*/
-#logo-dark {width:40px; padding:5px;position:absolute;top:5px }
+#TopNavBar a {float:right;font-size:14px;padding-left:40px}
+#logo-dark {position:fixed; width:40px; padding-right:5px;top:15px }
 #main-body {
     background-color:rgba(255,0,0,0.5);
     max-width:90%;
